@@ -8,30 +8,12 @@ API documentation is available at <{docs_url}>.
 
 ## Usage
 
+Check out the sample app in your browser [here](TODO) using StackBlitz.
+
 ```typescript
 import { TODO } from "TODO";
-```
 
-## Sample app
-
-Check out the [sample app](.sample-app/app.ts) which consumes this SDK!
-
-```bash
-export {COMPANY}_TOKEN=...
-
-cd .sample-app
-yarn install
-yarn start
-```
-
-## SDK Examples
-
-Below are a few examples of how to use the SDK to hit different endpoints. Check out our [API Reference]({docs_url}) to see all of our endpoints.
-
-### TODO 1
-
-```typescript
-TODO
+const TODO
 ```
 
 ## Beta status
