@@ -1,4 +1,4 @@
-# {Company} Node Library
+# Climatiq Node Library
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/climatiq)](https://www.npmjs.com/package/@fern-api/climatiq)
 
