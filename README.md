@@ -11,9 +11,29 @@ API documentation is available at <https://www.climatiq.io/docs>.
 Check out the sample app in your browser [here](https://stackblitz.com/edit/climatiq-typescript-example-0?file=app.ts&view=editor) using StackBlitz.
 
 ```typescript
-import { TODO } from "TODO";
+import { ClimatiqApiClient } from '@fern-api/climatiq';
 
-const TODO
+const client = new ClimatiqApiClient({
+  auth: {
+    token: 'YOUR_TOKEN',
+  },
+});
+
+const response = await client.flights.travelFlights({
+  legs: [
+    {
+      from: 'SEA',
+      to: 'SFO',
+      passengers: 2,
+    },
+  ],
+});
+
+console.log(
+  'Received response from Climatiq!',
+  JSON.stringify(response, undefined, 4)
+  );
+} 
 ```
 
 ## Beta status
