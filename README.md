@@ -8,7 +8,7 @@ API documentation is available at <https://www.climatiq.io/docs>.
 
 ## Usage
 
-Check out the sample app in your browser [here](https://stackblitz.com/edit/climatiq-typescript-example-0?file=app.ts&view=editor) using StackBlitz.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/climatiq-typescript-example-0?file=app.ts&view=editor)
 
 ```typescript
 import { ClimatiqApiClient } from '@fern-api/climatiq';
