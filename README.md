@@ -29,10 +29,8 @@ const response = await client.flights.travelFlights({
   ],
 });
 
-console.log(
-  'Received response from Climatiq!',
-  JSON.stringify(response, undefined, 4)
-  );
+console.log('Received response from Climatiq!', response);
+
 } 
 ```
 
