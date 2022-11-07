@@ -1,6 +1,6 @@
 {
     "name": "@fern-api/climatiq",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "repository": "https://github.com/fern-climatiq/climatiq-node",
     "files": [
         "core",
